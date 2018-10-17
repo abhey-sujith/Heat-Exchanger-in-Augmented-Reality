@@ -15,7 +15,13 @@ create account
 goto Devices->Add device write id description and credentials.The same should be also be in the arduino code.
 now upload the code and check if data is being sent to website.
 if data is being sent goto Devices->"your Device"->Device token and make a new token by pressing add.
+now open unity and after doing step 1 open the newbehaviourscript and change url to"https://api.thinger.io/v2/users/username/devices/deviceid/details" this can be seen in Devices->"your Device"->API explorer and authorization to the "Bearer***** the big device token ******"
 
-Steps for Unity
-now open unity and copy the asset folder
-goto 
+Steps for Unity 2017.3.1f1
+now open unity and copy everything "inside" the asset folder of Heat Exchanger into the asset folder of unity
+goto GameObject and import vuforia by just clicking anything inside it(if vuforia is not imported).
+goto file->Build settings->Player settings->XR settings->tick vuforia augmented reality.
+now drag the heat exchanger.unity file to the hierarchy
+goto vuforia website log in and goto Develop->License Manager->get Development Key add a name and confirm.Go inside the name and copy the big key and now in unity in the hierarchy click AR camera look at the inspector panel and go to open vuforia configuration and add the app key in the box also check if in databases there is two tick marks for load he database and activate and also load object target there should be a tick mark.
+in the inspector tab for AR camera change world centre mode to device tracking.
+now press the play button and show the image use_apk_on_this_image.jpg to the camera present inside the Heat exchanger folder(type stones and chips vuforia the first image should be it).
