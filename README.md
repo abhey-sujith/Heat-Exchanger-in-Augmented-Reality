@@ -1,9 +1,9 @@
 # Heat-Exchanger-in-Augmented-Reality
 
-This is a small project which shows working of a heat exchanger in AR using Unity,Vuforia,Blender and Esp-8266(NodeMcu) wifi module and thinger.io website site.                                                                                                
+**__This is a small project which shows working of a heat exchanger in AR using Unity,Vuforia,Blender and Esp-8266(NodeMcu) wifi module and thinger.io website site.__**                                                                                                
 This project takes sensor values(potentiometer) by using Node-Mcu and sends it to the iot website 'thinger.io' .These values are taken and shown in Augmented Reality by using Unity and Vuforia. Blender is used for Animation.                    
 
-Steps for using Node-Mcu Esp-8266                                                                           
+**Steps for using Node-Mcu Esp-8266**                                                                           
 1)Connect the Node-Mcu as shown in the figure using 4 potentiometer (diode is important as current will only flow in one direction).                                                                                                     
 2)Go here https://github.com/esp8266/Arduino and copy the Boards manager link: http://arduino.esp8266.com/stable/package_esp8266com_index.json.                                                                                                                                         
 3)Open Arduino and goto File->Preference->Additional board manager and paste it.                                
@@ -11,14 +11,14 @@ Steps for using Node-Mcu Esp-8266
 5)Goto tools->Boards and set the board to Node-Mcu 1.0.                                                           
 6)Now before uploading the arduino code see the step 2 below.                                                           
 
-Steps for Thinger Website                                                                            
+**Steps for Thinger Website**                                                                            
 1)Create account in thinger.io                                                           
 2)Goto Devices->Add device write id description and credentials.The same should be also be in the arduino code.               
 3)Now upload the code and check if data is being sent to website.                                                      
 4)If data is being sent goto Devices->"your Device"->Device token and make a new token by pressing Add.                        
 5)Now open unity and after doing step 1 below open the newbehaviourscript and change url to"https://api.thinger.io/v2/users/username/devices/deviceid/details" this can be seen in Devices->"your Device"->API explorer and authorization to the "Bearer***** the big device token ******" in Device token.                                                                                               
 
-Steps for Unity 2017.3.1f1                                                                  
+**Steps for Unity 2017.3.1f1**                                                                  
 1)Now open unity and copy everything "inside" the asset folder of Heat Exchanger into the asset folder of unity.                
 2)Goto GameObject and import vuforia by just clicking anything inside it(if vuforia is not imported).                          
 3)Goto file->Build settings->Player settings->XR settings->tick vuforia augmented reality.                                     
