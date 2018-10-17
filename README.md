@@ -16,7 +16,7 @@ This project takes sensor values(potentiometer) by using Node-Mcu and sends it t
 2) Goto Devices->Add device write id description and credentials.The same should be also be in the arduino code.               
 3) Now upload the code and check if data is being sent to website.                                                      
 4) If data is being sent goto Devices->"your Device"->Device token and make a new token by pressing Add.                        
-5) Now open unity and after doing step 1 below open the newbehaviourscript and change url to"https://api.thinger.io/v2/users/username/devices/deviceid/details" this can be seen in Devices->"your Device"->API explorer and authorization to the "Bearer***** the big device token ******" in Device token.                                                                                               
+5) Now open unity and after doing step 1 below open the newbehaviourscript and change url to"https:// api.thinger.io/v2/users/username/devices/deviceid/details" this can be seen in Devices->"your Device"->API explorer and authorization to the "Bearer***** the big device token ******" in Device token.                                                                                               
 
 **Steps for Unity 2017.3.1f1**                                                                  
 1) Now open unity and copy everything "inside" the asset folder of Heat Exchanger into the asset folder of unity.                
