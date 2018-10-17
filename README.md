@@ -4,8 +4,8 @@ This is a small project which shows working of a heat exchanger in AR using Unit
 This project takes sensor values(potentiometer) by using Node-Mcu and sends it to the iot website 'thinger.io' .These values are taken and shown in Augmented Reality by using Unity and Vuforia. Blender is used for Animation.                    
 
 Steps for using Node-Mcu Esp-8266                                                                           
-1)Connect the Node-Mcu as shown in the figure using 4 potentiometer (diode is important as current will only flow in one direction) .                                                                                                     
-2)go here https://github.com/esp8266/Arduino and copy the Boards manager link: http://arduino.esp8266.com/stable/package_esp8266com_index.json.                                                                                                                                         
+1)Connect the Node-Mcu as shown in the figure using 4 potentiometer (diode is important as current will only flow in one direction).                                                                                                     
+2)Go here https://github.com/esp8266/Arduino and copy the Boards manager link: http://arduino.esp8266.com/stable/package_esp8266com_index.json.                                                                                                                                         
 3)Open Arduino and goto File->Preference->Additional board manager and paste it.                                
 4)Goto tools->Boards->Boards Manager and search for esp8266 (community) and install it.                                  
 5)Goto tools->Boards and set the board to Node-Mcu 1.0.                                                           
