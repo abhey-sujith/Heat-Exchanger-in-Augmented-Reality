@@ -1,0 +1,1 @@
+**__Goto HEAT EXCHANGER folder and download HEAT EXCHANGER.apk file,install it and show it at .jpg image(use_apk_on_this_image.jpg),you should be able to see the basic working of heat exchanger.Animation shows the cold water going through the smaller pipes and the hot water going through the shell side of HE.__**
