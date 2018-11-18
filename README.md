@@ -1,7 +1,9 @@
 # Heat-Exchanger-in-Augmented-Reality
 
 **__This is a small project which shows working of a heat exchanger in AR using Unity,Vuforia,Blender and Esp-8266(NodeMcu) wifi module and thinger.io website site.__**                                                                                                
-This project takes sensor values(potentiometer) by using Node-Mcu and sends it to the iot website 'thinger.io' .These values are taken and shown in Augmented Reality by using Unity and Vuforia. Blender is used for Animation.                    
+This project takes sensor values(potentiometer) by using Node-Mcu and sends it to the iot website 'thinger.io' .These values are taken and shown in Augmented Reality by using Unity and Vuforia. Blender is used for Animation.  
+
+video :- https://youtu.be/JKj97uJFy90
 
 **Steps for using Node-Mcu Esp-8266**                                                                           
 1) Connect the Node-Mcu as shown in the figure using 4 potentiometer (diode is important as current will only flow in one direction).                                                                                                     
